@@ -1,0 +1,68 @@
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: -webkit-linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 100%);
+}
+#video_player{
+    width: 90%;
+    height: 100%;
+    margin: 5% 5% 0% 5%;
+    overflow: hidden;
+}
+#screen{
+    height: 80%;
+    width: 600px;
+    background:#000;
+}
+video{
+    width:100%;
+}
+#controls{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+#controls_buttons_container{
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+#backward_icon{
+    -webkit-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+    -ms-transform:scale(0.5);
+    transform:scale(0.5);
+}
+#forward_icon{
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    transform: scale(0.65);
+}
+#volume_container,#fullscreen_container{
+    width: 10%;
+    float: left;
+}
+#volume_icon{
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+}
+#maximize_icon{
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+#controls_buttons_container img,#volume_container img,#fullscreen_container img{
+  cursor:pointer;
+}
