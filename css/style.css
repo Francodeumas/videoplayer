@@ -35,6 +35,9 @@ video{
     float: left;
     text-align: center;
 }
+#play_icon{
+  display: inline-block;
+}
 #backward_icon{
     -webkit-transform:scale(0.5);
     -moz-transform:scale(0.5);
@@ -46,6 +49,13 @@ video{
     -moz-transform: scale(0.65);
     -ms-transform: scale(0.65);
     transform: scale(0.65);
+}
+#pause_icon{
+  -webkit-transform:scale(0.72);
+  -moz-transform:scale(0.72);
+  -ms-transform:scale(0.72);
+  transform:scale(0.72);
+  display: none;
 }
 #volume_container,#fullscreen_container{
     width: 10%;
